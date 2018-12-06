@@ -1,0 +1,17 @@
+.mybutton {
+	-fx-background-color: black;
+	-fx-border-color: black;
+	-fx-text-fill: white;
+	-fx-background-image: url("../application/squirrel.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.mybutton:hover {
+	-fx-background-color: orange;
+	-fx-border-color: orange;
+}
+
+.button:pressed {
+  -fx-background-color: red;
+  -fx-text-fill: white;
+  }
